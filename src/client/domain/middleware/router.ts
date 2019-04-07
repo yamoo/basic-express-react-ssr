@@ -10,7 +10,7 @@
 import page from 'page';
 import Routing from 'shared/routing';
 import { getLogger } from 'client/domain/logger';
-import { updateCurrentPage } from 'client/domain/store/reducers/main';
+import { updateCurrentPage } from 'client/domain/reducers';
 
 type Context = { params: { name: string } };
 

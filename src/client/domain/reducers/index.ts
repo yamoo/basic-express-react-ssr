@@ -8,7 +8,7 @@
  */
 
 import { getLogger } from 'client/domain/logger';
-import { swap, Page } from 'client/domain/store/main';
+import { swap, Page } from 'client/domain/store';
 
 const logger = getLogger('State');
 

@@ -1,6 +1,6 @@
 import * as Express from 'express';
 import rendererMiddleware from 'server/middlewares/renderer';
-import mainController from 'server/controllers/main';
+import mainController from 'server/controllers';
 
 const router = Express.Router();
 

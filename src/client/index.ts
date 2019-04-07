@@ -1,4 +1,4 @@
-import { createStore, subscribe } from 'client/domain/store/main';
+import { createStore, subscribe } from 'client/domain/store';
 import render from 'client/renderer';
 import startRouters from 'client/domain/middleware/router';
 

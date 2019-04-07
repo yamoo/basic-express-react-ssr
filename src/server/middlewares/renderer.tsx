@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { renderToString } from "react-dom/server";
 import Routing from 'shared/routing';
-import { createStore, getState } from 'client/domain/store/main';
-import { updateCurrentPage } from 'client/domain/store/reducers/main';
-import { App } from 'client/components/container/App';
+import { createStore, getState } from 'client/domain/store';
+import { updateCurrentPage } from 'client/domain/reducers';
+import { App } from 'client/containers/App';
 
 function getRouteState(path) {
   return Routing[path] || Routing['*'];

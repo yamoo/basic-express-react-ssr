@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { getState } from 'client/domain/store/main';
-import { HomePage } from 'client/components/container/HomePage';
-import { DetailPage } from 'client/components/container/DetailPage';
-import { Notfound } from 'client/components/container/Notfound';
-import { Nav } from 'client/components/presentational/Nav';
+import { getState } from 'client/domain/store';
+import { HomePage } from 'client/containers/HomePage';
+import { DetailPage } from 'client/containers/DetailPage';
+import { Notfound } from 'client/containers/Notfound';
+import { Nav } from 'client/components/Nav';
 
 function getPage(state) {
   if (!state) {

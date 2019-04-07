@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Heading } from 'client/components/presentational/Heading';
-import { Text } from 'client/components/presentational/Text';
+import { Heading } from 'client/components/Heading';
+import { Text } from 'client/components/Text';
 
 export const DetailPage = () =>
   <>

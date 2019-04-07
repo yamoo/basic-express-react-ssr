@@ -1,4 +1,4 @@
-import indexView from 'server/views/index';
+import indexView from 'server/views';
 
 export default (req, res, next) => {
   try {
